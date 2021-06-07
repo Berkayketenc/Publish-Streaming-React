@@ -12,7 +12,7 @@ function DetailAction() {
   const { id } = useParams();
   useEffect(() => {
     axios
-      .get(`http://localhost:3001/trending/all/api=a64gs8es8g4s65dfaef48da84/${id}`)
+      .get(`https://streaming-api-project.herokuapp.com/trending/all/api=a64gs8es8g4s65dfaef48da84/${id}`)
       .then((response) => setMovieDetail(response.data));
   }, []);
   
@@ -73,7 +73,7 @@ useEffect(() => {
   setTimeout(() => {
     if(startTimer) {
         axios
-        .put("http://localhost:3001/duration", totalDuration)
+        .put("https://streaming-api-project.herokuapp.com/duration", totalDuration)
         .then((response) => {
           console.log("api", response);
         });
@@ -84,7 +84,7 @@ useEffect(() => {
 
 useEffect(() => {
   axios
-    .get(`http://localhost:3001/duration`)
+    .get(`https://streaming-api-project.herokuapp.com/duration`)
     .then((response) => setDurationDetail(response.data));
 }, []);
 
