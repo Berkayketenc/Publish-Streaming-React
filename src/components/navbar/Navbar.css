@@ -1,0 +1,186 @@
+.navbar{
+
+    background-color: rgba(0, 0, 0, 0.13);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    
+    align-items:center;
+    justify-content:space-between;
+    z-index: 1;
+    position: fixed;
+    color: white;
+  
+  
+}
+
+.navbar .loginbutton {
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+
+
+
+.menu-bars{
+
+    margin-left:2rem;
+    
+    font-size: 2rem;
+    
+    
+   
+    
+
+}
+
+.nav-menu {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 1);
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:-100%; 
+    transition: 850ms;
+    
+    
+}
+
+
+
+.nav-menu.active{
+
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style-type: style none;
+    height: 60px;
+}
+.nav-text a {
+    text-decoration: none;
+    color:wheat;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.nav-text a:hover {
+
+    background-color: #111;
+}
+
+.nav-menu-items {
+    width: 100%;
+
+}
+.navbar-toggle{
+
+    
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+
+span {
+    margin-left:16px;
+
+}
+
+.dropbtn{
+
+    background-color: transparent;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: burlywood;
+
+  }
+  
+  
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .dropdown-content{
+      margin-top: -7px;
+      padding: 20px;
+      padding-left: 28px;
+      padding-right: 20px;
+      margin-left:-65px;
+      
+  }
+  
+  .dropdown-content a:hover {
+      background-color: rgba(0, 0, 0, 0.13);
+      color: gray;
+
+    }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+.settings{
+   width: 40px;
+   height: 25px;
+   cursor: pointer;
+   margin-bottom: -8px;
+   
+    
+}
+.noti{
+    width: 25px;
+   height: 25px;
+   cursor: pointer;
+   margin-bottom: -8px;
+
+}
+

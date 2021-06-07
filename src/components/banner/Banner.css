@@ -1,0 +1,60 @@
+.banner {
+  color: white;
+  object-fit: contain;
+  height: 100vh;
+  margin-bottom: -120px;
+}
+.banner_contents {
+  margin-left: 80px;
+  height: 620px;
+ 
+  padding-top: 360px;
+}
+.banner_title {
+  font-size: 3rem;
+  font-weight: 9000;
+  padding-bottom: 1rem;
+}
+
+.banner_description {
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  max-width: 360px;
+  height: 80px;
+}
+
+.banner_button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 3.8rem;
+  padding-right: 3.8rem;
+  margin-right: 1rem;
+  padding-top: 1.2rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding-bottom: 1rem;
+  
+}
+
+.banner_button:hover {
+  color: black;
+  background-color: #e6e6e6;
+  transition: all 0.2;
+}
+
+.bannerbottom {
+  /*bannerin altına geçiş ekledim */
+
+  height: 10.4rem;;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}

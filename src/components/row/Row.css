@@ -1,0 +1,87 @@
+.row{
+
+    margin-left: 20px;
+    color: whitesmoke;
+    
+    
+    
+}
+
+.row_posters{
+
+    display: flex;
+    overflow-y:hidden;
+    overflow-x:scroll;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.home-movie-list {
+    display: flex;
+    overflow-y:hidden;
+    overflow-x:scroll;
+}
+
+.home-movie-list::-webkit-scrollbar {
+    display: none;
+}
+
+.Home:first-child {
+ display: none;   
+}
+
+.home-first-banner .home-movie-list a img {
+width: 250px !important;
+}
+
+.Home .row a {
+    display: flex;
+    width: 20%;
+    display: inline-block;
+    /* padding: 20px; */
+    margin-top: 20px;
+    padding: 0;
+}
+
+.Home .row a img {
+    width: 200px;
+}
+
+
+.row_posters::-webkit-scrollbar{
+
+
+    display: none;  
+}
+
+
+.row_poster{
+
+    object-fit:contain;
+    width: 120%;
+    max-height: 120px;
+    margin-right:10px;
+    transition:transform 450ms; 
+
+
+}
+
+.row_poster:hover{
+
+transform:scale(1.2);/*fotoların öne gelmesi için*/
+
+
+}
+
+.row_posterLarge {
+
+    max-height: 270px;
+
+}
+
+.row_posterLarge:hover{
+
+    transform: scale(1.09);
+    opacity: 1;
+}

@@ -1,0 +1,87 @@
+.movie-detail{
+
+}
+
+.img{
+
+
+    height: 717px;
+    width: 835px;
+    margin-left: 700px;
+    
+    
+}
+.title{
+    color: wheat;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.desp{
+    color: wheat;
+    
+    
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.video{
+    height: 500px;
+    width: 1600px;
+    position: absolute;
+    margin-top:-50px;
+    
+
+}
+
+.det{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -240px;
+    margin-left: 200px;
+    
+}
+
+.analysis-list:not(:nth-child(2)) {
+    display: none;
+}
+
+.analysis {
+}
+
+.analysis-list {
+    font-size: 16px;
+    display: flex;
+    color: black;
+    width: 700px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    background: rgb(211, 211, 133);
+    border-radius: 6px;
+    padding: 10px 36px;
+}
+
+
+.analysis-list span {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(240, 59, 59);
+    margin-left: 0; 
+    margin-right: 6px;
+}
+
+.analysis-list .name {
+    display: flex;
+    align-items: center;
+}
+
+
+.watch-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
