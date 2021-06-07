@@ -54,7 +54,7 @@ function Detail() {
       let numbertimer = Number(timer.innerText);
       let duration = numberduration + numbertimer;
       localStorage.setItem(movieTitle, duration);
-    }, 1000);
+    }, 60000);
   }
 
 
@@ -78,7 +78,7 @@ useEffect(() => {
           console.log("api", response);
         });
     }
-  }, 2000);
+  }, 65000);
 }, [startTimer])
 
 
